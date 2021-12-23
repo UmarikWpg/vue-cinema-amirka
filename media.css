@@ -1,0 +1,81 @@
+
+@media (max-width:1150px) {
+    .series_second_cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .coll_content{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .films_cards{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    
+    .series_main_cards{
+        background-position: center;
+    }
+}
+
+@media (max-width:650px) {
+    .footer_content{
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .series_mini_cards{
+        justify-content: center;
+    }
+    
+    .series_second_card{
+        background-position: center;
+    }
+    
+    .series_main_cards{
+        background: url(https://steamuserimages-a.akamaihd.net/ugc/942812416678514721/AFBA6247A7B7FEAA98F9B47B3931865037356125/?imw=512&amp;imh=320&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true);     
+        background-position: center;
+        height: 700px;
+        
+    }
+}
+
+@media (max-width:475px){
+    .trailer img{
+        width: 100%;
+    }
+    .nav_content_list{
+        display: none;
+    }
+    
+    .main_title{
+        text-align: center;
+        width: 100%;
+    }
+    .header_content{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .btn{
+        margin: 0;
+        padding: 13px 34px;
+    }
+    
+    .header_content h1{
+        font-size: 40px;
+    }
+    
+    .footer_content p{
+        text-align: c;
+    }
+}
+
+
+
+
